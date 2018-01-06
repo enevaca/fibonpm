@@ -1,0 +1,28 @@
+{
+  "name": "fibonpm",
+  "version": "0.1.0",
+  "description": "Fibonacci con recursivo",
+  "main": "dist/src/fibonpm.js",
+  "scripts": {
+    "build": "babel src/fibonpm.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enevaca/fibonpm.git"
+  },
+  "keywords": [
+    "Fibonacci",
+    "recursibidad",
+    "evaca",
+    "platzi"
+  ],
+  "author": "Noel Vaca <noel.vm.2501@gmail.com> (https://facebook.com/noel.vacamoreno)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
